@@ -5,6 +5,11 @@ font-family: 'Saira Condensed', sans-serif;*/
 	padding: 0;
 	box-sizing: border-box;
 }
+.clearfix::after {
+	content: "";
+	display: block;
+	clear: both;
+}
 header {
 	position: relative;
 	height: 100vh;
@@ -191,8 +196,108 @@ header button {
 	}
 }
 
-
-
 section {
-	height: 100vh;
+	height: 30vh;
+}
+/*features*/
+.features {
+	margin: 50px auto 0;
+	padding: 5%;
+	text-align: center;
+	max-width: 1600px;
+}
+.features h1 {	
+	font-family: 'Saira Condensed', sans-serif;
+	font-size: 24px;
+	text-transform: uppercase;
+	margin-bottom: 15px;
+}
+.features h2 {	
+	font-family: 'Saira Condensed', sans-serif;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+.features p {
+	font-family: 'Saira', sans-serif;
+	font-size: 12px;	
+	font-weight: 300;
+	margin: 20px 0;
+}
+.features img {
+	width: 100%;
+	margin: 5px 0;
+	max-width: 375px;
+}
+@media (min-width: 360px) {
+	.features h1 {
+		font-size: 28px;
+	}
+	.features h2 {
+		font-size: 24px;
+	}
+	.features p {
+		font-size: 16px;
+	}
+}
+@media (min-width: 768px) {
+	.features h1 {
+		font-size: 36px;
+	}
+	.features h2 {
+		font-size: 28px;
+	}
+	.features p {
+		font-size: 18px;
+	}
+}
+@media (min-width: 1024px) {
+	.features {
+		margin-top: 50px;
+		padding: 5% 2%;
+		text-align: center;
+	}
+	.feature {
+		float: left;
+		width: 33%;
+		padding: 25px;
+	}
+	.features h1 {
+		font-size: 36px;
+	}
+	.features h2 {
+		font-size: 22px;
+	}
+	.features p {
+		font-size: 16px;
+		padding: 0 10px;
+	}
+}
+@media (min-width: 1280px) {
+	.features h1 {
+		font-size: 42px;
+	}
+	.features h2 {
+		font-size: 28px;
+	}
+	.features p {
+		font-size: 20px;
+		padding: 0 10px;
+	}
+}
+@media (min-width: 1600px) {
+	.feature {
+		padding: 20px 50px;
+
+	}
+	.features h1 {
+		font-size: 60px;
+	}
+	.features h2 {
+		font-size: 32px;
+	}
+	.features p {
+		font-size: 22px;
+		line-height: 150%;
+		padding: 0 10px;
+	}
 }
