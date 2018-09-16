@@ -306,7 +306,6 @@ section {
 	margin: 0 auto;
 	padding: 5px 0;
 	background-color: #222;
-
 }
 .portfolio h1 {	
 	padding: 20px;
@@ -460,14 +459,14 @@ section {
 }
 /*motto*/
 .motto {
-	height: 80vh;
-	position: absolute;
+	height: 80vh;	
 	text-align: center;
 	color: #fff;
 	background-image: url(images/motto.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
+	margin: 0 auto;
 }
 .motto .bg {
 	height: 80vh;
@@ -557,10 +556,85 @@ section {
 		font-size: 24px;
 	}	
 }
-
-
-
-
-		
-
-
+/*hobby*/
+.hobby {
+	max-width: 1920px;
+	margin: 0 auto;
+}
+.hobby .item {
+	height: 25vh;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.hobby h1 {	
+	padding: 20px;
+	font-family: 'Saira Condensed', sans-serif;
+	font-size: 24px;
+	text-transform: uppercase;
+	text-align: center;
+}
+.hobby .item:nth-of-type(1) {
+	background-image: url(images/hobby1.jpg);
+}
+.hobby .item:nth-of-type(2) {
+	background-image: url(images/hobby2.jpg);
+}
+.hobby .item:nth-of-type(3) {
+	background-image: url(images/hobby3.jpg);
+}
+.hobby .item:nth-of-type(4) {
+	background-image: url(images/hobby4.jpg);
+}
+.hobby .item p {
+	font-family: "Saira", sans-serif;
+	font-size: 24px;
+	text-align: center;
+	color: #fff;
+	background-color: rgba(0, 0, 0, .5);
+	padding: 5px 0;
+}
+@media (min-width: 533px) {
+	.hobby .item {
+		float: left;
+		width: 50%;
+		height: 50vh;
+	}
+}
+@media (min-width: 768px) {
+	.hobby h1 {
+		font-size: 36px;
+		padding: 30px;
+	}
+	.hobby .item p {
+		font-size: 36px;
+		padding: 15px 0;
+	}
+}
+@media (min-width: 1024px) {
+	.hobby .item p {
+		padding: 0;
+		line-height: 50vh;
+		opacity: 0;
+		transition: .3s;
+	}
+	.hobby .item:hover p {
+		opacity: 1;
+	}
+	.hooby .item {
+		background-size: 100%;
+		transition: .3s;
+	}
+	.hobby .item:hover {
+		background-size: 140%;
+	}
+}
+@media (min-width: 1600px) {
+	.hobby h1 {
+		font-size: 48px;
+		padding: 30px;
+	}
+	.hobby .item p {
+		font-size: 48px;
+	}
+}
