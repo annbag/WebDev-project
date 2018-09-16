@@ -458,4 +458,109 @@ section {
 		margin-bottom: 40px;
 	}
 }
+/*motto*/
+.motto {
+	height: 80vh;
+	position: absolute;
+	text-align: center;
+	color: #fff;
+	background-image: url(images/motto.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.motto .bg {
+	height: 80vh;
+	padding: 30px 15px;	
+	background-color: rgba(0, 63, 114, .5);
+}
+.motto h1 {
+	margin-bottom: 10px;
+	font-family: 'Saira Condensed', sans-serif;
+	font-size: 24px;
+	text-transform: uppercase;
+}
+.motto p {	
+	position: relative;
+	top: 20%;
+	font-family: 'Saira', sans-serif;
+	font-size: 18px;
+}
+.motto p.author {
+	font-size: 12px;
+	margin-top: 10px;
+	text-transform: capitalize;
+}
+@media (orientation: portrait) and (min-width: 375px) {
+	.motto .bg {		
+		padding: 30px;			
+	}
+	.motto h1 {
+		font-size: 28px;
+	}
+	.motto p {
+		font-size: 22px;
+	}
+	.motto p.author {
+		font-size: 14px;
+	}
+}
+@media (orientation: portrait) and (min-width: 768px) {
+	.motto .bg {		
+		padding: 60px;			
+	}
+	.motto h1 {
+		font-size: 48px;
+	}
+	.motto p {
+		font-size: 32px;
+		line-height: 180%;
+	}
+	.motto p.author {
+		font-size: 20px;
+	}	
+}
+@media (orientation: portrait) and (min-width: 1024px){
+	.motto .bg {		
+		padding: 100px;			
+	}
+	.motto h1 {
+		font-size: 48px;
+	}
+	.motto p {
+		font-size: 36px;
+		line-height: 200%;
+	}
+	.motto p.author {
+		font-size: 24px;
+	}	
+}
+@media (orientation: landscape) and (min-width: 665px) {
+	.motto .bg {		
+		padding: 40px;			
+	}
+	.motto h1 {
+		font-size: 32px;
+	}
+}
+@media (orientation: landscape) and (min-width: 1024px) {
+	.motto .bg {		
+		padding: 80px 100px;			
+	}
+	.motto h1 {
+		font-size: 48px;
+	}
+	.motto p {
+		font-size: 36px;
+	}
+	.motto p.author {
+		font-size: 24px;
+	}	
+}
+
+
+
+
+		
+
 
