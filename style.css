@@ -566,6 +566,7 @@ section {
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
+	cursor: default;
 }
 .hobby h1 {	
 	padding: 20px;
