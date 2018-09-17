@@ -639,3 +639,97 @@ section {
 		font-size: 48px;
 	}
 }
+/*contact*/
+.contact {
+	background-color: #222;
+	padding: 20px 30px;
+}
+.contact .wrap {
+	padding-top: 40px;
+	max-width: 1024px;
+	margin: 0 auto;
+}
+.contact h1 {	
+	font-family: 'Saira Condensed', sans-serif;
+	font-size: 24px;
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+}
+.contact input, .contact textarea, .contact button {
+	width: 100%;
+	margin-bottom: 20px;
+	padding: 5px;	
+	font-family: 'Saira', sans-serif;
+	font-size: 12px;
+}
+.contact input {	
+	height: 36px;	
+}
+.contact textarea {
+	height: 120px;
+}
+.contact button {
+	height: 40px;
+	font-size: 14px;
+	border: 2px solid #fff;
+	background-color: transparent;
+	color: #fff;
+	text-transform: uppercase;
+}
+.contact .socials {
+	padding-top: 30px;
+	font-size: 0;
+}
+.contact .social {
+	padding: 5px 0;
+	font-family: "Saira Condensed", sans-serif;
+	color: #fff;	
+}
+.contact .social img {
+	height: 36px;
+	float: left;	 
+}
+.contact .social span {
+	line-height: 36px;
+	padding-left: 20px;
+	float: left;
+	font-size: 14px;
+}
+@media (min-width: 533px) {
+	.contact .social {
+		display: inline-block;
+		padding: 5px 25px;
+		width: 50%;
+	}
+}
+@media (min-width: 768px) {	
+	.contact h1 {
+		font-size: 36px;  
+	}
+	.contact input, .contact textarea, .contact .social span {
+		font-size: 18px;
+	}
+	.contact form, .contact .socials {
+		float: left;
+		width: 50%;
+	}
+	.contact .socials {
+		padding-top: 0;
+	}
+	.contact .social {
+		display: block;
+		margin: 0 auto;
+		padding: 10px 0;
+		width: 50%;
+	}
+}
+@media (min-width: 1024px) {
+	.contact input, .contact textarea, .contact .social span {
+		font-size: 24px;
+	}
+	.contact button {
+		font-size: 24px;
+		height: 60px;
+	}
+}
