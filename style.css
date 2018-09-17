@@ -731,5 +731,17 @@ section {
 	.contact button {
 		font-size: 24px;
 		height: 60px;
+		cursor: pointer;
+		transition: .3s;
+	}
+	.contact button:hover {
+		color: #222;
+		background-color: #fff;
+	}
+	.contact img {
+		cursor: pointer;
+	}
+	.contact img:hover {
+		transform: scale(1.20);
 	}
 }
