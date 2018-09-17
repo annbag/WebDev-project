@@ -745,3 +745,12 @@ section {
 		transform: scale(1.20);
 	}
 }
+footer {
+	font-family: 'Saira', sans-serif;
+	font-size: 20px;
+	background-color: #2aa6dc;
+	color: #222;
+	text-align: center;
+	padding: 12px;
+
+}
